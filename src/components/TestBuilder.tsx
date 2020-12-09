@@ -3,8 +3,6 @@ import { DescribeBlock } from './DescribeBlock';
 import {useSelector, useDispatch} from 'react-redux';
 import { UpdateItObj, UpdateKeyOfDescribe, UpdateData, UpdateDescribe, UpdateDescribeBoolean} from '../reduxComponents/actions/actions';
 
-
-
 export const TestBuilder: React.FC = () => {
   const dispatch = useDispatch();
 
